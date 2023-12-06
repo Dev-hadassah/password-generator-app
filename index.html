@@ -55,20 +55,20 @@
       </div>
       <div class="">
         <div class="checkboxes gap-6 mb-5 flex-col">
-          <label for="IncludeUppercase" class="checkBoxLabel block relative cursor-pointer mb5">
-            <input type="checkbox" name="IncludeUppercase" id="IncludeUppercase"  class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer ">Include Uppercase Letters
+          <label for="inclUppercase" class="checkboxLabel block relative cursor-pointer mb5">
+            <input type="checkbox" name="inclUppercase" id="inclUppercase"  class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer ">Include Uppercase Letters
             <span class="checkmark "><img src="assets/images/icon-check.svg" alt="icon-check"></span>
           </label>
-          <label for="IncludeLowercase" class="checkBoxLabel mb-5">
-            <input type="checkbox" name="IncludeLowercase" id="IncludeLowercase"  class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer">Include Lowercase Letters
+          <label for="inclLowercase" class="checkboxLabel mb-5">
+            <input type="checkbox" name="inclLowercase" id="inclLowercase"  class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer">Include Lowercase Letters
             <span class="checkmark "><img src="assets/images/icon-check.svg" alt="icon-check"></span>
           </label>
-          <label for="IncludeNumbers" class="checkBoxLabel mb-5">
-            <input type="checkbox" name="IncludeNumbers" id="IncludeNumbers"  class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer">Include Numbers
+          <label for="inclNumber" class="checkboxLabel mb-5">
+            <input type="checkbox" name="inclNumber" id="inclNumber" class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer">Include Numbers
             <span class="checkmark"><img src="assets/images/icon-check.svg" alt="icon-check"></span>
           </label>
-          <label for="IncludeSymbols" class="checkBoxLabel mb5">
-            <input type="checkbox" name="IncludeSymbols" id="IncludeSymbols"  class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer">Include Symbols
+          <label for="inclSymbol" class="checkboxLabel mb5">
+            <input type="checkbox" name="inclSymbol" id="inclSymbol" class="text-almostWhite font-bold text-lg active:bg-neonGreen active:text-veryDarkGrey cursor-pointer">Include Symbols
             <span class="checkmark"><img src="assets/images/icon-check.svg" alt="icon-check"></span>
           </label>
       </div>
@@ -76,8 +76,8 @@
     <div class="bg-darkGrey">
       <div class="strenght flex justify-between bg-veryDarkGrey mx8 py-5 px-8 mb-8">
         <p class="text-almostWhite text-lg font-bold ">Strength</p>
-        <div class="strenghtv1 flex">
-          <p class="text-almostWhite uppercase text-3xl font-bold" id="levelText">weak</p>
+        <div class="strenghtLv1 flex">
+          <p class="text-almostWhite uppercase text-3xl font-bold" id="levelTxt">weak</p>
           <div id="bar1" class="bars w-3 h-7 border-2 border-almostWhite  bar1"></div>
           <div id="bar2" class="bars bar2"></div>
           <div id="bar3" class="bars bar3"></div>
@@ -85,13 +85,13 @@
         </div>
       </div>
       <div class="">
-        <button id="generationBtn" class="flex items-center justify-center gap-6 uppercase text-veryDarkGrey hover:text-neonGreen  bg-neonGreen border-2 border-neonGreen hover:bg-veryDarkGrey font-bold text-lg py-5 w-full">Generate
+        <button id="generateBtn" class="flex items-center justify-center gap-6 uppercase text-veryDarkGrey hover:text-neonGreen  bg-neonGreen border-2 border-neonGreen hover:bg-veryDarkGrey font-bold text-lg py-5 w-full">Generate
           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor">
             <path d="M5.10547 12L11.1054 6.00002L5.10547 0L3.84045 1.26501L7.68094 5.10547L0 5.10547V6.8946L7.68094 6.8946L3.84045 10.735L5.10547 12Z" fill="#24232C"/>
           </svg>
         </button>
       </div> 
-      <p id="alert" class="hidden text-center text-red">Please select one or more options</p>
+      <p id="alert" class="fs-3 alert text-center text-red">Please select one or more options</p>
     </div>
   </div>
   
